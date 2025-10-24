@@ -14,20 +14,56 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Curso: Engenharia Informática" />
+            android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Disciplina: Desenvolvimento de Aplicações Móveis" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curso: "
+                android:textStyle="bold"/>
 
-        <TextView
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engenharia Informática" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ano Letivo: 2025/2026" />
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disciplina: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desenvolvimento de Aplicações Móveis" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ano Letivo: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2025/2026" />
+        </LinearLayout>
 
         <Space
             android:layout_width="match_parent"
@@ -36,12 +72,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Autores:" 
+            android:text="Autores:"
             android:textStyle="bold"/>
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:src="@drawable/constanca"
             />
 
         <TextView
@@ -52,6 +89,7 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:src="@drawable/rui"
              />
 
         <TextView
@@ -66,7 +104,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bibliotecas e Frameworks:" 
+            android:text="Bibliotecas e Frameworks:"
             android:textStyle="bold"/>
 
     </LinearLayout>
