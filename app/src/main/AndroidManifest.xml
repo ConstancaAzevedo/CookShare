@@ -20,6 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        //tela "sobre"
+        <activity android:name=".AboutActivity" />
     </application>
 
 </manifest>

@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Trabalho"
+rootProject.name = "CookShare"
 include(":app")
- 
