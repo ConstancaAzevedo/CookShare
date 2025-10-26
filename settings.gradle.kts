@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CookShare"
+rootProject.name = "PetFinder"
 include(":app")
