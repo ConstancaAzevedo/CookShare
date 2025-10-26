@@ -7,6 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/petfinder"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="45dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -26,7 +34,7 @@
         android:layout_height="65dp"
         android:text="Sobre"
         android:textSize="25sp"
-        android:backgroundTint="@color/light_blue"
+        android:backgroundTint="#ADD8E6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
