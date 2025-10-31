@@ -25,5 +25,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AboutActivity::class.java)
             startActivity(intent)
         }
+
+        //botão para autenticação na página principal
+        val authButton = findViewById<Button>(R.id.login_button)
+        authButton.setOnClickListener {
+            val intent = Intent(this, AutenticacaoActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

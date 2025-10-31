@@ -8,27 +8,40 @@
     android:layout_height="match_parent"
     tools:context=".AboutActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Criadores"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Curso: "
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Engenharia Informática" />
+                android:text="Engenharia Informática"
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -73,29 +86,34 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Autores:"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:layout_gravity="center" />
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/constanca"
+            android:layout_gravity="center"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nº: 25969, Nome: Constança Azevedo" />
+            android:text="Nº: 25969, Nome: Constança Azevedo"
+            android:layout_gravity="center"/>
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/rui"
+            android:layout_gravity="center"
              />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nº: 25957, Nome: Rui Dias" />
+            android:text="Nº: 25957, Nome: Rui Dias"
+            android:layout_gravity="center"/>
 
         <Space
             android:layout_width="match_parent"
@@ -105,7 +123,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bibliotecas e Frameworks:"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
 
     </LinearLayout>
 </ScrollView>
