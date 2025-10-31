@@ -7,26 +7,28 @@
 
         <!--página de autentiação dos utilizadores-->
         <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:text="Autenticação"
-            android:textStyle="bold"
             android:textSize="30sp"
-            app:layout_constraintStart_toStartOf="parent"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <!-- botão login -->
     <Button
         android:id="@+id/login_button"
         android:layout_width="125dp"
         android:layout_height="65dp"
-        android:text="Login"
+        android:text="@string/btn_login2"
         android:textSize="25sp"
-
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="494dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
