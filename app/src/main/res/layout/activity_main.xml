@@ -12,7 +12,7 @@
         android:layout_width="279dp"
         android:layout_height="299dp"
         android:layout_marginBottom="10dp"
-        android:src="@drawable/petfinder"
+        android:src="@drawable/vetconnect"
         app:layout_constraintBottom_toTopOf="@+id/nome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -21,7 +21,7 @@
         android:id="@+id/nome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PetFinder"
+        android:text="@string/app_nome"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
     <!-- botão autenticação com layout -->
     <Button
         android:id="@+id/login_button"
-        android:text="Login"
+        android:text="@string/btn_login"
         android:layout_width="125dp"
         android:layout_height="65dp"
         android:textSize="25sp"
@@ -47,7 +47,7 @@
         android:id="@+id/about_button"
         android:layout_width="125dp"
         android:layout_height="65dp"
-        android:text="Sobre"
+        android:text="@string/btn_sobre"
         android:textSize="25sp"
         android:backgroundTint="#ADD8E6"
         app:layout_constraintBottom_toBottomOf="parent"
